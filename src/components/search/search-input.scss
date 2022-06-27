@@ -1,0 +1,34 @@
+.topSection {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+@media only screen and (max-width: 640px) {
+  .topSection{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ 
+  }
+  .mw-120{
+    width: 82%;
+    max-width: 385px;
+  }
+  .search-input {
+      width: 82%;
+  }
+}
+.mw-120 {
+  min-width: 100px !important;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  input {
+    width: 350px;
+  }
+}
